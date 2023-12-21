@@ -2,7 +2,7 @@ CREATE TABLE `data_platform_authenticator_business_user_data`
 (
     `EmailAddress`             varchar(200) NOT NULL,
     `BusinessPartner`          int(12) NOT NULL,
-    `BusinessPartnerName`      varchar(100) NOT NULL,
+--  `BusinessPartnerName`      varchar(100) NOT NULL,
     `Password`                 varchar(70) NOT NULL,
     `Qos`                      varchar(20) NOT NULL,
     `IsEncrypt`                tinyint(1)  NOT NULL,
